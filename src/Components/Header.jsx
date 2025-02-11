@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProviders";
+import Theme from "./theme";
 
 const Header = () => {
   const {user , signOutHandle} = useContext(AuthContext)
@@ -84,6 +85,9 @@ const Header = () => {
               Login
             </NavLink>
           )}
+          <div className="ml-2">
+            <Theme></Theme>
+          </div>
         </div>
       </div>
     </div>
