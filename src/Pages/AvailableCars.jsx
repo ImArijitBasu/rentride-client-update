@@ -109,7 +109,7 @@ const AvailableCars = () => {
         }
       >
         {filteredCars.map((car) => (
-          <div key={car.id} className="border p-4 rounded-md shadow dark:text-white">
+          <div key={car.id} className="border p-4 rounded-md shadow dark:text-white dark:bg-slate-900/50 transition-all duration-150 ease-linear">
             <h3 className="font-bold">{car.carModel}</h3>
             <p>Location: {car.location}</p>
             <p>Price: ${car.dailyRentalPrice}/day</p>

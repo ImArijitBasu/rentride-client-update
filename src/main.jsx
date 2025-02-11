@@ -15,6 +15,7 @@ import Login from "./Pages/Auths/Login.jsx";
 import SignUp from "./Pages/Auths/SignUp.jsx";
 import { Toaster } from "react-hot-toast";
 import CarDetails from "./Components/CarDetails.jsx";
+import About from "./Pages/About.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/available-cars",
         element: <AvailableCars></AvailableCars>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/available-cars/:id",

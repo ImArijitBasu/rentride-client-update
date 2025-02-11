@@ -113,7 +113,7 @@ const AddCar = () => {
           <select
             id="availability"
             name="availability"
-            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"
+            className="mt-1 block w-full dark:text-black border-gray-300 rounded-md shadow-sm"
           >
             <option value="Available">Available</option>
             <option value="Unavailable">Unavailable</option>

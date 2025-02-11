@@ -13,6 +13,9 @@ const Header = () => {
       <NavLink to={'/available-cars'} className="text-blue-900 lg:text-white border border-yellow-500 px-2 py-1 rounded-lg font-bold outline-none">
         Available Cars
       </NavLink>
+      <NavLink to={'/about'} className="text-blue-900 lg:text-white border border-yellow-500 px-2 py-1 rounded-lg font-bold outline-none">
+        About Us
+      </NavLink>
       {user ? (
         <>
           {" "}
@@ -35,7 +38,7 @@ const Header = () => {
     signOutHandle()
   }
   return (
-    <div className="bg-blue-900 dark:bg-slate-900 text-white fixed top-0 z-10 w-full">
+    <div className="bg-blue-900 dark:bg-slate-900 transition-colors ease-in-out duration-[5s] text-white fixed top-0 z-10 w-full">
       <div className="navbar bg-transparent container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
