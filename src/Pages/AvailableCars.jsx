@@ -114,7 +114,7 @@ const AvailableCars = () => {
             <p>Location: {car.location}</p>
             <p>Price: ${car.dailyRentalPrice}/day</p>
             <button
-              className="bg-blue-500 text-white py-1 px-4 rounded-md mt-2"
+              className="bg-transparent border  dark:text-white py-1 px-4 rounded-md mt-2"
             >
               <Link to={`/available-cars/${car._id}`} className="">Details</Link>
             </button>
