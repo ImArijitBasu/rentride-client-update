@@ -24,7 +24,7 @@ const RecentListing = () => {
 
   return (
     <div className="container mx-auto text-center my-4">
-      <p className="uppercase text-3xl font-extrabold border-b-4 my-6">
+      <p className="uppercase text-3xl font-extrabold border-b-4 my-6 dark:text-white">
         Recent Listing
       </p>
       {loading ? (
@@ -37,7 +37,7 @@ const RecentListing = () => {
         </div>
       )}
       <div className="w-full flex justify-end my-5">
-      <Link className="rounded-2xl border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none" to="/available-cars">
+      <Link className="rounded-2xl border-2 border-dashed border-black bg-white dark:bg-slate-900 dark:text-white dark:border-yellow-500 px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none" to="/available-cars">
         See more
       </Link>
       </div>

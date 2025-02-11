@@ -8,15 +8,15 @@ import chat from "../Lottie/chat.json";
 const WhyChoose = () => {
   return (
     <div className="container mx-auto py-4">
-        <p className="text-center flex justify-center font-extrabold text-3xl  my-8 border-b-4">WHY CHOOSE US  <span className="text-yellow-500"> ?</span></p>
+        <p className="text-center dark:text-white flex justify-center font-extrabold text-3xl  my-8 border-b-4">WHY CHOOSE US  <span className="text-yellow-500"> ?</span></p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 container mx-auto">
         {/* //!one */}
         <div className="border rounded-2xl flex flex-col justify-center items-center px-4">
           <div className="w-56 md:w-full bg-yellow-500 h-auto md:h-52 m-4 flex justify-center items-center rounded-xl">
             <Lottie className="w-48" animationData={garage}></Lottie>
           </div>
-          <p className="font-extrabold text-xl border-b-4 text-blue-900">Wide Variety of Cars</p>
-          <p className="px-4 text-center font-medium">
+          <p className="font-extrabold text-xl border-b-4 text-blue-900  dark:text-yellow-500">Wide Variety of Cars</p>
+          <p className="px-4 text-center font-medium dark:text-white ">
             A selection of cars ranging from budget-friendly to luxury options.
           </p>
         </div>
@@ -25,8 +25,8 @@ const WhyChoose = () => {
           <div className="w-56 md:w-full bg-yellow-500 h-auto md:h-52 m-4 flex justify-center items-center rounded-xl">
             <Lottie animationData={doller}></Lottie>
           </div>
-          <p className="font-extrabold text-xl border-b-4 text-blue-900">Affordable Prices</p>
-          <p className="px-4 text-center font-medium py-2">
+          <p className="font-extrabold text-xl border-b-4 text-blue-900  dark:text-yellow-500">Affordable Prices</p>
+          <p className="px-4 text-center font-medium dark:text-white py-2">
             Transparent and competitive daily rental rates.
           </p>
         </div>
@@ -35,8 +35,8 @@ const WhyChoose = () => {
           <div className="w-56 md:w-full bg-yellow-500 h-auto md:h-52 m-4 flex justify-center items-center rounded-xl">
             <Lottie animationData={calender}></Lottie>
           </div>
-          <p className="font-extrabold text-xl border-b-4 text-blue-900">Easy Booking Process</p>
-          <p className="px-4 text-center font-medium py-2">
+          <p className="font-extrabold text-xl border-b-4 text-blue-900  dark:text-yellow-500">Easy Booking Process</p>
+          <p className="px-4 text-center font-medium dark:text-white py-2">
             {" "}
             Simple, user-friendly booking with minimal steps.
           </p>
@@ -46,8 +46,8 @@ const WhyChoose = () => {
           <div className="w-56 md:w-full bg-yellow-500 h-auto md:h-52 m-4 flex justify-center items-center rounded-xl">
             <Lottie animationData={chat}></Lottie>
           </div>
-          <p className="font-extrabold text-xl border-b-4 text-blue-900">Customer Support</p>
-          <p className="px-4 text-center font-medium py-2">
+          <p className="font-extrabold text-xl border-b-4 text-blue-900  dark:text-yellow-500">Customer Support</p>
+          <p className="px-4 text-center font-medium dark:text-white py-2">
             {" "}
             24/7 assistance for any queries or issues.
           </p>

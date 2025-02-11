@@ -32,8 +32,8 @@ const CarDetails = () => {
   };
   console.log(car);
   return (
-    <div className="flex flex-col md:flex-row container mx-auto justify-center space-x-4 mt-10">
-      <div className="">
+    <div className="flex flex-col md:flex-row container mx-auto justify-center space-x-4 mt-10 dark:text-white">
+      <div className="overflow-hidden">
         <img
           src={car.imageUrl}
           alt=""

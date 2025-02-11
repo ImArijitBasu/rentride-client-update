@@ -13,7 +13,7 @@ const RecentCard = ({ car }) => {
   };
   const daysAgo = calculateDaysAgo(postDate);
   return (
-    <div className="bg-white hover:bg-yellow-50/30 border-transparent hover:border-yellow-500 border-4 p-4 rounded-md shadow-md relative hover:shadow-lg transition duration-300 ease-in-out">
+    <div className="bg-white dark:bg-slate-900 dark:text-white hover:bg-yellow-50/30 border-transparent hover:border-yellow-500 border-4 p-4 rounded-md shadow-md relative hover:shadow-lg transition duration-300 ease-in-out ">
       {availability === "Available" ? (
         <p className="text-base absolute -top-2 -left-2  font-bold bg-green-500 w-fit p-2 rounded-2xl text-right text-green-50">
           {availability}
@@ -41,10 +41,10 @@ const RecentCard = ({ car }) => {
           Rental Price: ${dailyRentalPrice}/day
         </p>
 
-        <p className="text-sm text-gray-400 text-right py-3">
+        <p className="text-sm text-gray-400 dark:text-white text-right py-3 mb-5">
           Added {daysAgo} days ago
         </p>
-        <Link to={`/available-cars/${car._id}`} className="btn w-full bg-blue-900 text-white hover:bg-blue-600">see more</Link>
+        <Link to={`/available-cars/${car._id}`} className="btn absolute -bottom-2 -right-2 bg-blue-900 dark:bg-slate-900 text-white hover:bg-blue-600 dark:border-yellow-500 dark:hover:bg-slate-800">see more</Link>
       </div>
     </div>
   );

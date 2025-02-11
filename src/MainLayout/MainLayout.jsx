@@ -11,7 +11,7 @@ const MainLayout = () => {
     return <Loading></Loading>
   }
   return (
-    <div className="flex flex-col min-h-screen font-custom">
+    <div className="flex flex-col min-h-screen font-custom dark:bg-slate-800">
       <div className="">
         <Header></Header>
       </div>

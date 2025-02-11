@@ -47,7 +47,7 @@ const RentPriceTrends = () => {
   }, []);
 
   return (
-    <section className="bg-white p-12 rounded-md shadow-md animate__animated animate__fadeIn container mx-auto flex flex-col justify-center items-center">
+    <section className="bg-white dark:bg-slate-900 dark:text-white p-12 rounded-md shadow-md animate__animated animate__fadeIn container mx-auto flex flex-col justify-center items-center">
       <h2 className="text-3xl font-extrabold mb-6 text-center">Rental Price Trends Over Time</h2>
       <div className="w-full h-auto flex justify-center items-center">
         <Line

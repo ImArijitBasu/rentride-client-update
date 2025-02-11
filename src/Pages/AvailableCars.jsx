@@ -79,13 +79,13 @@ const AvailableCars = () => {
             placeholder="Search by model, brand, or location"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="border p-2 rounded w-full bg-blue-900 dark:bg-slate-900 text-white"
           />
         </form>
         <select
           onChange={(e) => setSortOption(e.target.value)}
           value={sortOption}
-          className="border p-2 rounded"
+          className="border p-2 rounded bg-blue-900 dark:bg-slate-900 text-white"
         >
           <option value="">Sort By</option>
           <option value="priceLowToHigh">Price: Low to High</option>
@@ -95,7 +95,7 @@ const AvailableCars = () => {
         </select>
         <button
           onClick={() => setViewMode(viewMode === "grid" ? "list" : "grid")}
-          className="border p-2 rounded btn btn-sm"
+          className="border p-2 rounded btn btn-sm bg-blue-900 dark:bg-slate-900 text-white"
         >
           Toggle View
         </button>
@@ -109,14 +109,14 @@ const AvailableCars = () => {
         }
       >
         {filteredCars.map((car) => (
-          <div key={car.id} className="border p-4 rounded shadow">
+          <div key={car.id} className="border p-4 rounded-md shadow dark:text-white">
             <h3 className="font-bold">{car.carModel}</h3>
             <p>Location: {car.location}</p>
             <p>Price: ${car.dailyRentalPrice}/day</p>
             <button
-              className="bg-blue-500 text-white py-1 px-4 rounded mt-2"
+              className="bg-blue-500 text-white py-1 px-4 rounded-md mt-2"
             >
-              <Link to={`/available-cars/${car._id}`}>Details</Link>
+              <Link to={`/available-cars/${car._id}`} className="">Details</Link>
             </button>
           </div>
         ))}

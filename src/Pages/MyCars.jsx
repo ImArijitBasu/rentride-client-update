@@ -99,14 +99,14 @@ const MyCars = () => {
   };
 
   return (
-    <div>
+    <div className="dark:text-white">
       <div className="container mx-auto flex justify-between items-center">
         <div>Total cars: {cars.length}</div>
         <div className="my-4">
           <select
             value={sortOption}
             onChange={(e) => sortCars(e.target.value)}
-            className="select select-bordered w-full max-w-xs"
+            className="select select-bordered w-full max-w-xs dark:bg-slate-900"
           >
             <option value="">Sort by</option>
             <option value="date_newest">Date Added (Newest First)</option>
@@ -122,7 +122,7 @@ const MyCars = () => {
         {cars.length > 0 ? (
           <div>
             <table className="table border-4 border-blue-900">
-              <thead>
+              <thead className="text-black dark:text-white">
                 <tr>
                   <th>Car details</th>
                   <th>Bookings</th>

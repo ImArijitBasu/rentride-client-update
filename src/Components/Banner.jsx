@@ -42,7 +42,7 @@ const Banner = () => {
                 ></div>
                 <Link
                   to="/available-cars"
-                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 transition duration-300"
+                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 dark:bg-slate-900 transition duration-300"
                 >
                   View Available Cars
                 </Link>
@@ -69,7 +69,7 @@ const Banner = () => {
                 ></div>
                 <Link
                   to="/available-cars"
-                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 transition duration-300"
+                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 dark:bg-slate-900 transition duration-300"
                 >
                   View Available Cars
                 </Link>
@@ -96,7 +96,7 @@ const Banner = () => {
                 ></div>
                 <Link
                   to="/available-cars"
-                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 transition duration-300"
+                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 dark:bg-slate-900 transition duration-300"
                 >
                   View Available Cars
                 </Link>
@@ -123,7 +123,7 @@ const Banner = () => {
                 ></div>
                 <Link
                   to="/available-cars"
-                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 transition duration-300"
+                  className="relative px-6 py-3 text-white bg-transparent rounded-full z-10 font-semibold hover:bg-blue-900 dark:bg-slate-900 transition duration-300"
                 >
                   View Available Cars
                 </Link>

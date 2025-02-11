@@ -25,19 +25,19 @@ const SpecialOffers = () => {
 
   return (
     <section className="container mx-auto p-12">
-      <h2 className="text-3xl font-extrabold mb-6 text-center">Special Offers</h2>
+      <h2 className="text-3xl font-extrabold mb-6 text-center dark:text-white uppercase">Special Offers</h2>
       <div className=" overflow-hidden space-y-3">
         {offers.map((offer, index) => (
           <div
             key={offer.id}
-            className="bg-blue-500 p-6 rounded-md shadow-md transition-all transform hover:scale-105 hover:translate-y-2 hover:shadow-lg duration-200"
+            className="bg-blue-500 dark:bg-slate-900 p-6 rounded-md shadow-md transition-all transform hover:scale-105 hover:translate-y-2 hover:shadow-lg duration-200"
             data-aos={index % 2 === 0 ? 'fade-left' : 'fade-right'}
           >
             <h3 className="text-2xl font-bold text-white mb-4">{offer.title}</h3>
             <p className="text-white mb-4">{offer.description}</p>
-            <button className="bg-yellow-400 text-black py-2 px-4 rounded-full hover:bg-yellow-500">
+            {/* <button className="bg-yellow-400 text-black py-2 px-4 rounded-full hover:bg-yellow-500">
               {offer.buttonText}
-            </button>
+            </button> */}
           </div>
         ))}
       </div>

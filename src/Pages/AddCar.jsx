@@ -69,12 +69,12 @@ const AddCar = () => {
     <div className="mt-10">
       <form
         onSubmit={handleSubmit}
-        className="max-w-lg mx-auto p-4 bg-white shadow-md rounded border"
+        className="max-w-lg mx-auto p-4 bg-white dark:bg-slate-900 dark:text-white shadow-md rounded-md border"
       >
         <div className="mb-4">
           <label
             htmlFor="carModel"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Car Model
           </label>
@@ -90,7 +90,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="dailyRentalPrice"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Daily Rental Price
           </label>
@@ -106,7 +106,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="availability"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Availability
           </label>
@@ -123,7 +123,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="registrationNumber"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Vehicle Registration Number
           </label>
@@ -139,7 +139,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="features"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Features
           </label>
@@ -155,7 +155,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="description"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Description
           </label>
@@ -169,7 +169,7 @@ const AddCar = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700">
+          <label className="block text-sm font-medium text-gray-700 dark:text-white">
             Car Image
           </label>
           <div
@@ -203,7 +203,7 @@ const AddCar = () => {
         <div className="mb-4">
           <label
             htmlFor="location"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 dark:text-white"
           >
             Location
           </label>

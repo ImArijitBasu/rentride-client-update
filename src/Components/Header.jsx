@@ -35,7 +35,7 @@ const Header = () => {
     signOutHandle()
   }
   return (
-    <div className="bg-blue-900 text-white fixed top-0 z-10 w-full">
+    <div className="bg-blue-900 dark:bg-slate-900 text-white fixed top-0 z-10 w-full">
       <div className="navbar bg-transparent container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

@@ -25,7 +25,7 @@ const Home = () => {
             <RecentListing></RecentListing>
             </div>
             <div className="container border-b-4 uppercase mx-auto text-center  text-3xl my-8 font-extrabold">
-            Drive Safe, Stay Wise
+            <p className='dark:text-white'>Drive Safe, Stay Wise</p>
             </div>
             <ExtraSection></ExtraSection>
             <Example></Example>

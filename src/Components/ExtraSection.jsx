@@ -30,7 +30,7 @@ const ExtraSection = () => {
           <div
             key={index}
             data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
-            className={`quote-item mb-4 p-4 text-white rounded-xl  flex ${index % 2 === 0 ? "bg-yellow-500 border" : "bg-blue-900 "}`}
+            className={`quote-item mb-4 p-4 text-white rounded-xl  flex ${index % 2 === 0 ? "bg-yellow-500 border" : "bg-blue-900 dark:bg-slate-900 "}`}
           >
             {quote}
           </div>

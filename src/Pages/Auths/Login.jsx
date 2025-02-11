@@ -76,7 +76,7 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
-          <div onClick={handleGoogle} className="btn text-3xl m-3 bg-blue-900"><FcGoogle /></div>
+          <div onClick={handleGoogle} className="btn text-3xl m-3 bg-blue-900 dark:bg-slate-900"><FcGoogle /></div>
           <div className=" bg-yellow-500 text-center text-white py-3 font-bold">
             New User ? <Link className=" text-blue-900" to={'/register'}>Register</Link>
           </div>

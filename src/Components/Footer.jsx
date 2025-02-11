@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-900 text-white">
+    <div className="bg-blue-900 dark:bg-slate-900 text-white">
       <footer className="footer bg-transparent text-neutral-content p-10 container mx-auto flex flex-col md:flex-row md:justify-around justify-center md:items-center">
         <aside className="">
             <img src="/logo.png" width="100" alt="" className="bg-yellow-500 rounded-3xl " />
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <footer className="footer footer-center bg-base-300 text-base-content p-4">
+      <footer className="footer footer-center bg-base-300 dark:bg-slate-800 dark:text-white text-base-content p-4">
         <aside>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by rentride Ltd
